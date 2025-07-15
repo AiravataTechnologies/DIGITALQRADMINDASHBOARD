@@ -1,0 +1,114 @@
+ Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+menu-management.tsx:93 🏪 Restaurant data: undefined
+menu-management.tsx:94 📂 Restaurant customTypes: undefined
+menu-management.tsx:95 🔗 Restaurant mongoUri: undefined
+menu-management.tsx:96 📊 Menu items available: false 0
+menu-management.tsx:122 📋 Final categories being used: Array(4)
+menu-management.tsx:80 🎯 Menu items fetched successfully: Array(11)
+menu-management.tsx:81 📊 Total items: 11
+menu-management.tsx:93 🏪 Restaurant data: undefined
+menu-management.tsx:94 📂 Restaurant customTypes: undefined
+menu-management.tsx:95 🔗 Restaurant mongoUri: undefined
+menu-management.tsx:96 📊 Menu items available: true 11
+menu-management.tsx:122 📋 Final categories being used: Array(4)
+menu-management.tsx:480 🔍 Comparing "starters" with "starters"
+menu-management.tsx:480 🔍 Comparing "starters" with "starters"
+menu-management.tsx:480 🔍 Comparing "starters" with "starters"
+menu-management.tsx:480 🔍 Comparing "mains" with "starters"
+menu-management.tsx:480 🔍 Comparing "mains" with "starters"
+menu-management.tsx:480 🔍 Comparing "mains" with "starters"
+menu-management.tsx:480 🔍 Comparing "desserts" with "starters"
+menu-management.tsx:480 🔍 Comparing "drinks" with "starters"
+menu-management.tsx:480 🔍 Comparing "drinks" with "starters"
+menu-management.tsx:480 🔍 Comparing "combos" with "starters"
+menu-management.tsx:480 🔍 Comparing "combos" with "starters"
+menu-management.tsx:484 📊 Category "Starters" has 3 items
+menu-management.tsx:480 🔍 Comparing "starters" with "main course"
+menu-management.tsx:480 🔍 Comparing "starters" with "main course"
+menu-management.tsx:480 🔍 Comparing "starters" with "main course"
+menu-management.tsx:480 🔍 Comparing "mains" with "main course"
+menu-management.tsx:480 🔍 Comparing "mains" with "main course"
+menu-management.tsx:480 🔍 Comparing "mains" with "main course"
+menu-management.tsx:480 🔍 Comparing "desserts" with "main course"
+menu-management.tsx:480 🔍 Comparing "drinks" with "main course"
+menu-management.tsx:480 🔍 Comparing "drinks" with "main course"
+menu-management.tsx:480 🔍 Comparing "combos" with "main course"
+menu-management.tsx:480 🔍 Comparing "combos" with "main course"
+menu-management.tsx:484 📊 Category "Main Course" has 0 items
+menu-management.tsx:480 🔍 Comparing "starters" with "desserts"
+menu-management.tsx:480 🔍 Comparing "starters" with "desserts"
+menu-management.tsx:480 🔍 Comparing "starters" with "desserts"
+menu-management.tsx:480 🔍 Comparing "mains" with "desserts"
+menu-management.tsx:480 🔍 Comparing "mains" with "desserts"
+menu-management.tsx:480 🔍 Comparing "mains" with "desserts"
+menu-management.tsx:480 🔍 Comparing "desserts" with "desserts"
+menu-management.tsx:480 🔍 Comparing "drinks" with "desserts"
+menu-management.tsx:480 🔍 Comparing "drinks" with "desserts"
+menu-management.tsx:480 🔍 Comparing "combos" with "desserts"
+menu-management.tsx:480 🔍 Comparing "combos" with "desserts"
+menu-management.tsx:484 📊 Category "Desserts" has 1 items
+menu-management.tsx:480 🔍 Comparing "starters" with "beverages"
+menu-management.tsx:480 🔍 Comparing "starters" with "beverages"
+menu-management.tsx:480 🔍 Comparing "starters" with "beverages"
+menu-management.tsx:480 🔍 Comparing "mains" with "beverages"
+menu-management.tsx:480 🔍 Comparing "mains" with "beverages"
+menu-management.tsx:480 🔍 Comparing "mains" with "beverages"
+menu-management.tsx:480 🔍 Comparing "desserts" with "beverages"
+menu-management.tsx:480 🔍 Comparing "drinks" with "beverages"
+menu-management.tsx:480 🔍 Comparing "drinks" with "beverages"
+menu-management.tsx:480 🔍 Comparing "combos" with "beverages"
+menu-management.tsx:480 🔍 Comparing "combos" with "beverages"
+menu-management.tsx:484 📊 Category "Beverages" has 0 items
+menu-management.tsx:93 🏪 Restaurant data: undefined
+menu-management.tsx:94 📂 Restaurant customTypes: undefined
+menu-management.tsx:95 🔗 Restaurant mongoUri: undefined
+menu-management.tsx:96 📊 Menu items available: true 11
+menu-management.tsx:122 📋 Final categories being used: Array(4)
+menu-management.tsx:480 🔍 Comparing "starters" with "starters"
+menu-management.tsx:480 🔍 Comparing "starters" with "starters"
+menu-management.tsx:480 🔍 Comparing "starters" with "starters"
+menu-management.tsx:480 🔍 Comparing "mains" with "starters"
+menu-management.tsx:480 🔍 Comparing "mains" with "starters"
+menu-management.tsx:480 🔍 Comparing "mains" with "starters"
+menu-management.tsx:480 🔍 Comparing "desserts" with "starters"
+menu-management.tsx:480 🔍 Comparing "drinks" with "starters"
+menu-management.tsx:480 🔍 Comparing "drinks" with "starters"
+menu-management.tsx:480 🔍 Comparing "combos" with "starters"
+menu-management.tsx:480 🔍 Comparing "combos" with "starters"
+menu-management.tsx:484 📊 Category "Starters" has 3 items
+menu-management.tsx:480 🔍 Comparing "starters" with "main course"
+menu-management.tsx:480 🔍 Comparing "starters" with "main course"
+menu-management.tsx:480 🔍 Comparing "starters" with "main course"
+menu-management.tsx:480 🔍 Comparing "mains" with "main course"
+menu-management.tsx:480 🔍 Comparing "mains" with "main course"
+menu-management.tsx:480 🔍 Comparing "mains" with "main course"
+menu-management.tsx:480 🔍 Comparing "desserts" with "main course"
+menu-management.tsx:480 🔍 Comparing "drinks" with "main course"
+menu-management.tsx:480 🔍 Comparing "drinks" with "main course"
+menu-management.tsx:480 🔍 Comparing "combos" with "main course"
+menu-management.tsx:480 🔍 Comparing "combos" with "main course"
+menu-management.tsx:484 📊 Category "Main Course" has 0 items
+menu-management.tsx:480 🔍 Comparing "starters" with "desserts"
+menu-management.tsx:480 🔍 Comparing "starters" with "desserts"
+menu-management.tsx:480 🔍 Comparing "starters" with "desserts"
+menu-management.tsx:480 🔍 Comparing "mains" with "desserts"
+menu-management.tsx:480 🔍 Comparing "mains" with "desserts"
+menu-management.tsx:480 🔍 Comparing "mains" with "desserts"
+menu-management.tsx:480 🔍 Comparing "desserts" with "desserts"
+menu-management.tsx:480 🔍 Comparing "drinks" with "desserts"
+menu-management.tsx:480 🔍 Comparing "drinks" with "desserts"
+menu-management.tsx:480 🔍 Comparing "combos" with "desserts"
+menu-management.tsx:480 🔍 Comparing "combos" with "desserts"
+menu-management.tsx:484 📊 Category "Desserts" has 1 items
+menu-management.tsx:480 🔍 Comparing "starters" with "beverages"
+menu-management.tsx:480 🔍 Comparing "starters" with "beverages"
+menu-management.tsx:480 🔍 Comparing "starters" with "beverages"
+menu-management.tsx:480 🔍 Comparing "mains" with "beverages"
+menu-management.tsx:480 🔍 Comparing "mains" with "beverages"
+menu-management.tsx:480 🔍 Comparing "mains" with "beverages"
+menu-management.tsx:480 🔍 Comparing "desserts" with "beverages"
+menu-management.tsx:480 🔍 Comparing "drinks" with "beverages"
+menu-management.tsx:480 🔍 Comparing "drinks" with "beverages"
+menu-management.tsx:480 🔍 Comparing "combos" with "beverages"
+menu-management.tsx:480 🔍 Comparing "combos" with "beverages"
+menu-management.tsx:484 📊 Category "Beverages" has 0 items

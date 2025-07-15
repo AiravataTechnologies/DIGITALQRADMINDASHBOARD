@@ -1,0 +1,53 @@
+chunk-WERSD76P.js?v=56300f14:21551 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+/api/admin/restaurants:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+/api/admin/restaurants:1  Failed to load resource: the server responded with a status of 401 (Unauthorized)
+queryClient.ts:18  POST https://dc810b5a-8443-4f13-a010-65a76dd824b3-00-2kgp97sd0hfim.worf.replit.dev/api/admin/restaurants 401 (Unauthorized)
+apiRequest @ queryClient.ts:18
+mutationFn @ restaurant-form.tsx:77
+fn @ @tanstack_react-query.js?v=56300f14:1236
+run @ @tanstack_react-query.js?v=56300f14:513
+start @ @tanstack_react-query.js?v=56300f14:555
+execute @ @tanstack_react-query.js?v=56300f14:1272
+await in execute
+mutate @ @tanstack_react-query.js?v=56300f14:2692
+(anonymous) @ @tanstack_react-query.js?v=56300f14:3415
+handleSubmit @ restaurant-form.tsx:104
+callCallback2 @ chunk-WERSD76P.js?v=56300f14:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=56300f14:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=56300f14:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=56300f14:3736
+executeDispatch @ chunk-WERSD76P.js?v=56300f14:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=56300f14:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=56300f14:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=56300f14:7051
+(anonymous) @ chunk-WERSD76P.js?v=56300f14:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=56300f14:18913
+batchedUpdates @ chunk-WERSD76P.js?v=56300f14:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=56300f14:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=56300f14:5478
+dispatchEvent @ chunk-WERSD76P.js?v=56300f14:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=56300f14:5449
+queryClient.ts:18  GET https://dc810b5a-8443-4f13-a010-65a76dd824b3-00-2kgp97sd0hfim.worf.replit.dev/api/admin/restaurants 401 (Unauthorized)
+apiRequest @ queryClient.ts:18
+queryFn @ dashboard.tsx:31
+fetchFn @ @tanstack_react-query.js?v=56300f14:881
+run @ @tanstack_react-query.js?v=56300f14:513
+start @ @tanstack_react-query.js?v=56300f14:555
+fetch @ @tanstack_react-query.js?v=56300f14:969
+executeFetch_fn @ @tanstack_react-query.js?v=56300f14:2280
+onSubscribe @ @tanstack_react-query.js?v=56300f14:1983
+subscribe @ @tanstack_react-query.js?v=56300f14:24
+(anonymous) @ @tanstack_react-query.js?v=56300f14:3147
+subscribeToStore @ chunk-WERSD76P.js?v=56300f14:11984
+commitHookEffectListMount @ chunk-WERSD76P.js?v=56300f14:16915
+commitPassiveMountOnFiber @ chunk-WERSD76P.js?v=56300f14:18156
+commitPassiveMountEffects_complete @ chunk-WERSD76P.js?v=56300f14:18129
+commitPassiveMountEffects_begin @ chunk-WERSD76P.js?v=56300f14:18119
+commitPassiveMountEffects @ chunk-WERSD76P.js?v=56300f14:18109
+flushPassiveEffectsImpl @ chunk-WERSD76P.js?v=56300f14:19490
+flushPassiveEffects @ chunk-WERSD76P.js?v=56300f14:19447
+commitRootImpl @ chunk-WERSD76P.js?v=56300f14:19416
+commitRoot @ chunk-WERSD76P.js?v=56300f14:19277
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=56300f14:18895
+flushSyncCallbacks @ chunk-WERSD76P.js?v=56300f14:9119
+(anonymous) @ chunk-WERSD76P.js?v=56300f14:18627

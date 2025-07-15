@@ -1,0 +1,95 @@
+Design a luxurious, interactive web application UI for a royal-themed restaurant menu card with the following detailed structure and visuals:
+
+🟡 1. Welcome / First Screen: Restaurant Information Page
+
+Theme: Royal, elegant UI with deep midnight blue and golden accents, rich textures like silk or velvet background, with animated sparkles or glowing borders.
+
+Content:
+
+Restaurant Name in calligraphic font (e.g., “Maharaja Feast”)
+
+Logo in golden 3D style
+
+About Us short paragraph
+
+Timings, Address, Contact
+
+Background ambient animation like gold particles floating slowly or a moving curtain-style background
+
+A gold-bordered “View Menu” button with a hover/click animation (e.g., glow on tap)
+
+🟢 2. Menu Screen Layout: Categories with Tabs or Side Scroll
+
+Use elegant tab-based navigation or side-scroll categories at the top like:
+
+Starters, Main Course, Desserts, Drinks, Combos, etc.
+
+Golden underlines or glow on active category tab
+
+Smooth tab transition animation (slide-in effects)
+
+🟢 3. Dish Cards Layout (inside each category)
+
+Each dish should be presented in a beautiful card-style layout with the following:
+
+Dish Name in a modern serif font (bold, clear)
+
+Short Description below name (2-line max, soft grey or white text)
+
+Price on the right with a gold coin icon or ₹ symbol
+
+Veg/Non-Veg Indicator:
+
+Green dot (veg), Red dot (non-veg) — elegant bordered circle icon on top-right
+
+Add to Cart Button:
+
+Gold gradient or soft white button with floating animation
+
+Background card styling: semi-transparent black with golden edges or subtle gradient
+
+Entry animations: slight fade-in with upward slide
+
+🔍 4. Top Search & Filter Bar
+
+Search Bar (rounded glassmorphic style)
+
+Placeholder: "Search dishes..."
+
+Animated search icon with smooth expansion
+
+Filter Toggle Buttons:
+
+Veg / Non-Veg / All — pill-shaped buttons with:
+
+Green glow for Veg
+
+Red glow for Non-Veg
+
+Golden for All
+
+Tap animations with bounce effect
+
+🔄 5. Transitions & Animation Details
+
+Smooth page transitions (fade, slide, or parallax)
+
+Dish cards load with staggered animation
+
+Button interactions have subtle pulse or glow
+
+A royal-themed background music toggle (optional)
+
+✨ Style Guidelines
+
+Color Scheme: Deep Blue (#0A1F44), Royal Gold (#FFD700), Ivory White (#FDF6E3), Emerald Green, Maroon Red
+
+Fonts:
+
+Headers: Playfair Display or Cinzel Decorative
+
+Body: Lato or Inter
+
+Shadows & Highlights: Soft glowing shadows around cards and text
+
+UI Tone: Premium, majestic, yet easy to use

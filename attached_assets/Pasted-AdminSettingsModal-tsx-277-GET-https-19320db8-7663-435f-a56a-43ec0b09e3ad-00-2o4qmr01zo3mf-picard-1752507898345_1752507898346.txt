@@ -1,0 +1,34 @@
+AdminSettingsModal.tsx:277  GET https://19320db8-7663-435f-a56a-43ec0b09e3ad-00-2o4qmr01zo3mf.picard.replit.dev/api/admin/export-database 401 (Unauthorized)
+handleExportDatabase @ AdminSettingsModal.tsx:277
+callCallback2 @ chunk-WERSD76P.js?v=fb296065:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=fb296065:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=fb296065:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=fb296065:3736
+executeDispatch @ chunk-WERSD76P.js?v=fb296065:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=fb296065:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=fb296065:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=fb296065:7051
+(anonymous) @ chunk-WERSD76P.js?v=fb296065:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=fb296065:18913
+batchedUpdates @ chunk-WERSD76P.js?v=fb296065:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=fb296065:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=fb296065:5478
+dispatchEvent @ chunk-WERSD76P.js?v=fb296065:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=fb296065:5449
+AdminSettingsModal.tsx:313  GET https://19320db8-7663-435f-a56a-43ec0b09e3ad-00-2o4qmr01zo3mf.picard.replit.dev/api/admin/system-logs 401 (Unauthorized)
+handleViewSystemLogs @ AdminSettingsModal.tsx:313
+callCallback2 @ chunk-WERSD76P.js?v=fb296065:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=fb296065:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=fb296065:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=fb296065:3736
+executeDispatch @ chunk-WERSD76P.js?v=fb296065:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=fb296065:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=fb296065:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=fb296065:7051
+(anonymous) @ chunk-WERSD76P.js?v=fb296065:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=fb296065:18913
+batchedUpdates @ chunk-WERSD76P.js?v=fb296065:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=fb296065:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=fb296065:5478
+dispatchEvent @ chunk-WERSD76P.js?v=fb296065:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=fb296065:5449

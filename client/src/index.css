@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Cinzel+Decorative:wght@400;600;700;900&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global theme styles - Apply color themes to entire application */
+.theme-blue {
+  --primary: hsl(214, 85%, 50%);
+  --primary-foreground: #ffffff;
+  --secondary: hsl(210, 40%, 96%);
+  --accent: hsl(214, 85%, 50%);
+  --accent-foreground: #ffffff;
+}
+
+.theme-purple {
+  --primary: hsl(270, 95%, 50%);
+  --primary-foreground: #ffffff;
+  --secondary: hsl(270, 40%, 96%);
+  --accent: hsl(270, 95%, 50%);
+  --accent-foreground: #ffffff;
+}
+
+.theme-green {
+  --primary: hsl(120, 95%, 40%);
+  --primary-foreground: #ffffff;
+  --secondary: hsl(120, 40%, 96%);
+  --accent: hsl(120, 95%, 40%);
+  --accent-foreground: #ffffff;
+}
+
+.theme-teal {
+  --primary: hsl(180, 95%, 40%);
+  --primary-foreground: #ffffff;
+  --secondary: hsl(180, 40%, 96%);
+  --accent: hsl(180, 95%, 40%);
+  --accent-foreground: #ffffff;
+}
+
+.theme-orange {
+  --primary: hsl(30, 95%, 50%);
+  --primary-foreground: #ffffff;
+  --secondary: hsl(30, 40%, 96%);
+  --accent: hsl(30, 95%, 50%);
+  --accent-foreground: #ffffff;
+}
+
+.theme-red {
+  --primary: hsl(0, 95%, 50%);
+  --primary-foreground: #ffffff;
+  --secondary: hsl(0, 40%, 96%);
+  --accent: hsl(0, 95%, 50%);
+  --accent-foreground: #ffffff;
+}
+
+/* Apply theme colors globally to buttons, inputs, and other components */
+button[type="submit"], .btn-primary, button[data-variant="default"], .bg-blue-600, .bg-blue-500 {
+  background-color: var(--primary) !important;
+  color: var(--primary-foreground) !important;
+}
+
+button[type="submit"]:hover, .btn-primary:hover, button[data-variant="default"]:hover, .bg-blue-600:hover, .bg-blue-500:hover {
+  opacity: 0.9 !important;
+}
+
+.text-primary, .text-blue-600, .text-blue-500 {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.border-primary, .border-blue-600, .border-blue-500 {
+  border-color: var(--primary) !important;
+}
+
+/* Force theme application on common Tailwind classes */
+.bg-gradient-to-r {
+  background: linear-gradient(to right, var(--primary), var(--accent)) !important;
+}
+
+/* Apply to login and main buttons - more specific selectors */
+button:not([disabled]):not([class*="variant-secondary"]):not([class*="variant-outline"]):not([class*="variant-ghost"]):not([class*="destructive"]) {
+  background-color: var(--primary) !important;
+  color: var(--primary-foreground) !important;
+}
+
+/* Specific button classes */
+.bg-blue-600, .bg-blue-500, .bg-light-blue, .text-white {
+  background-color: var(--primary) !important;
+  color: var(--primary-foreground) !important;
+}
+
+/* Main navigation and cards */
+.card, .bg-white {
+  transition: all 0.2s ease;
+}
+
+/* Dashboard specific elements */
+.dashboard .bg-blue-50, .bg-blue-50 {
+  background-color: var(--secondary) !important;
+}
+
+/* Ensure Add Restaurant and other action buttons use theme colors */
+.bg-blue-600:hover, .bg-blue-500:hover {
+  opacity: 0.8 !important;
+}
+
+/* Text colors for dashboard elements */
+.text-blue-600, .text-blue-500 {
+  color: var(--primary) !important;
+}
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(214, 85%, 50%);
+  --primary-foreground: hsl(0, 0%, 98%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(222, 84%, 5%);
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(222, 84%, 5%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(214, 85%, 50%);
+  --radius: 0.5rem;
+  
+  /* Light Blue and White theme colors */
+  --light-blue: hsl(214, 85%, 50%);
+  --light-blue-hover: hsl(214, 85%, 45%);
+  --light-blue-light: hsl(214, 100%, 97%);
+  --light-blue-dark: hsl(214, 85%, 35%);
+  --clean-white: hsl(0, 0%, 100%);
+  --clean-gray: hsl(0, 0%, 96%);
+  --clean-gray-dark: hsl(0, 0%, 85%);
+  --clean-text: hsl(0, 0%, 10%);
+  --clean-text-light: hsl(0, 0%, 40%);
+  --clean-border: hsl(0, 0%, 90%);
+  --clean-success: hsl(120, 60%, 50%);
+  --clean-warning: hsl(38, 92%, 50%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel Decorative', serif;
+  }
+
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .elegant-gradient {
+    background: linear-gradient(135deg, var(--elegant-black) 0%, var(--elegant-dark-gray) 100%);
+  }
+
+  .elegant-gold-gradient {
+    background: linear-gradient(135deg, var(--elegant-gold) 0%, var(--elegant-gold-light) 100%);
+  }
+
+  .elegant-card {
+    background: var(--elegant-white);
+    border: 2px solid var(--elegant-light-gray);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .elegant-card-dark {
+    background: var(--elegant-dark-gray);
+    border: 2px solid var(--elegant-gold);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .dish-card {
+    transition: all 0.3s ease;
+    background: var(--elegant-white);
+    border: 1px solid var(--elegant-light-gray);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .dish-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-color: var(--elegant-gold);
+  }
+
+  .floating-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--elegant-gold);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.7;
+  }
+
+  @keyframes float {
+    0%, 100% { 
+      transform: translateY(0px); 
+      opacity: 0.7;
+    }
+    50% { 
+      transform: translateY(-20px); 
+      opacity: 1;
+    }
+  }
+
+  .elegant-shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .elegant-shadow-hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .elegant-gradient {
+    background: linear-gradient(135deg, var(--elegant-cream) 0%, var(--elegant-light-cream) 100%);
+  }
+
+  .elegant-gold-gradient {
+    background: linear-gradient(135deg, var(--elegant-gold) 0%, var(--elegant-light-gold) 100%);
+  }
+
+  .elegant-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--elegant-light-gray);
+  }
+
+  .dish-card {
+    background: white;
+    border: 1px solid var(--elegant-light-gray);
+  }
+
+  .dish-card:hover {
+    border-color: var(--elegant-gold);
+  }
+}
