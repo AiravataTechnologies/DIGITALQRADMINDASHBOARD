@@ -186,3 +186,6 @@ async function startServerWithPortKill(port: number, maxRetries: number = 3): Pr
     process.exit(1);
   }
 })();
+
+// Export for Vercel serverless functions
+export default app;
