@@ -22,7 +22,5 @@
       "src": "/(.*)",
       "dest": "/dist/public/$1"
     }
-  ],
-  "installCommand": "npm install",
-  "buildCommand": "vite build"
+  ]
 }
